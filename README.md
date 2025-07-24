@@ -7,19 +7,19 @@ This project automates BDD-style API tests against the public RestCountries API 
 API Endpoint Under Test
 https://restcountries.com/v3.1/currency/{currency}
 
-**Project Structure**
+Project Structure:
 restcountries_api_test/
 ├── features/
-│   └── test_currency.feature        # BDD feature file
-├── steps/
-│   └── test_currency_steps.py       # Step definitions
+│ ├── test_currency.feature # BDD feature file
+│ └── steps/
+│ └── test_currency_steps.py # Step definitions
 ├── tests/
-│   └── test_runner.py (optional)
+│ └── test_runner.py # (optional)
 ├── reports/
-│   └── api_test_report.html         # HTML test report (generated)
-├── requirements.txt                 # Project dependencies
-├── conftest.py                      # Shared fixtures/context
-└── README.md                        # Project guide
+│ └── api_test_report.html # HTML test report (generated)
+├── requirements.txt # Project dependencies
+├── conftest.py # Shared fixtures/context
+└── README.md # Project guide
  
 Prerequisites
 - Python 3.11.1
